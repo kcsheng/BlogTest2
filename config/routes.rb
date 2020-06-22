@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :portfolios
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :portfolios # most commonly used, scaffold-like, skinnier (NO prefilled items), database-setup
+  # minimalist type of architecture allowing for more room to customise
 end
